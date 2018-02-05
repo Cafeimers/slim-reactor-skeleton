@@ -1,0 +1,11 @@
+{
+  "_comment": "Visit https://github.com/crazy-goat/goatherd for more information about goatherd.",
+  "listenSocket": "tcp://0.0.0.0:8888",
+  "workerCount" : 8,
+  "watchDir" : "src",
+  "worker" : {
+    "command" : "src/app.php",
+    "params": "%%socket%%",
+    "workerSocket" : "tcp://127.0.0.1:8000"
+  }
+}
