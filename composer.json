@@ -17,7 +17,7 @@
         "slim/php-view": "^2.0",
         "monolog/monolog": "^1.17",
         "react/http": "^0.8.1",
-        "crazygoat/slim-reactor": "^0.1"
+        "crazygoat/slim-reactor": "^0.2.1"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.8 < 6.0"
@@ -31,7 +31,7 @@
         "process-timeout" : 0
     },
     "scripts": {
-        "start": "src/app.php 0.0.0.0:8888",
+        "start": "src/app.php 0.0.0.0:8881",
         "goatherd": "goatherd config/goatherd-tcp.json",
         "test": "phpunit"
     }
