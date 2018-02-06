@@ -25,7 +25,8 @@ require __DIR__ . '/../src/routes.php';
 $slimReactor  = new SlimReactor(
     $app,
     [
-        'socket' => isset($argv[1]) ? $argv[1] : '0.0.0.0:0'
+        'socket' => isset($argv[1]) ? $argv[1] : '0.0.0.0:0',
+        'staticContentPath' => __DIR__.'/../public'
     ]
 );
 $slimReactor->run();
