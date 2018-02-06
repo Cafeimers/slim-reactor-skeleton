@@ -1,5 +1,5 @@
 {
-    "name": "crazygoat/react-slim-skeleton",
+    "name": "crazygoat/slim-reactor-skeleton",
     "description": "A Slim Framework skeleton powered by react http server",
     "keywords": ["microframework", "rest", "router", "psr7", "react"],
     "homepage": "https://github.com/crazy-goat/React-Slim-Skeleton",
